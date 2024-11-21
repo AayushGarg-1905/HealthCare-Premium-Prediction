@@ -3,7 +3,7 @@
 1. LinearRegression
 2. RidgeRegression
 3. XgBoost
-4. XgBoost with RandomisedCV
+4. XgBoost with RandomisedSearchCV
 
 ### Project Flow
 1. Started with a single model
