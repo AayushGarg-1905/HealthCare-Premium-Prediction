@@ -1,11 +1,11 @@
 import pandas as pd
 from joblib import load
 
-model_age_above_25 = load('artifacts/model_age_above_25.joblib')
-model_age_under_25 = load('artifacts/model_age_under_25.joblib')
+model_age_above_25 = load('app/artifacts/model_age_above_25.joblib')
+model_age_under_25 = load('app/artifacts/model_age_under_25.joblib')
 
-scaler_age_above_25 = load('artifacts/scaler_age_above_25.joblib')
-scaler_age_under_25 = load('artifacts/scaler_age_under_25.joblib')
+scaler_age_above_25 = load('app/artifacts/scaler_age_above_25.joblib')
+scaler_age_under_25 = load('app/artifacts/scaler_age_under_25.joblib')
 
 def calculate_normalized_risk(medical_history):
     risk_scores = {
